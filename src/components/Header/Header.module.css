@@ -1,7 +1,20 @@
-.header{
-    grid-area: h;
-    background-color: aquamarine;
-  }
-  .header img{
-    width: 50px ;
-  }
+.backcolor {
+    background-color: #001E5C;
+    width: auto;
+    display: flex;
+    padding: 10px 10px 10px 10px;
+}
+
+.headerText {
+    color: #FFFFFF;
+    margin: auto;
+    padding-top: 10px;
+    padding-left: 40px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.headerIcon {
+    height: 50px;
+    width: 50px;
+    margin: auto;
+}

@@ -1,10 +1,13 @@
 import React from 'react';
-import s from "./Header.module.css";
+import styles from '../Header/Header.module.css';
+import headerIcon from '../../assets/images.png';
 
 
-const Header = () =>{
-    return <header className={s.header}>
-        <img src="https://cdn.pixabay.com/photo/2020/08/09/14/25/business-5475659_960_720.jpg"/>
-    </header>
+const Header = () => {
+    return <div className={styles.backcolor}>
+        <span><img className={styles.headerIcon} src={headerIcon} alt="" /></span>
+        <span><h1 className={styles.headerText}>FilmoTeka</h1></span>
+    </div>
 }
+
 export default Header;

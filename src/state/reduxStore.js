@@ -1,19 +1,40 @@
-import messageReducer from "./messageReducer";
-import profileReducer from "./profileReducer";
-import sidebarReducer from "./sidebarReducer";
-import usersReducer from "./usersReducer";
 
-// import { createStore } from "redux";
-const { createStore, combineReducers } = require("redux");
 
-let reducers = combineReducers({
-    profilePage: profileReducer,
-    messagePage: messageReducer,
-    sidebar: sidebarReducer,
-    userPage: usersReducer,
 
-})
 
-let store = createStore (reducers);
 
-export default store;
+
+
+
+
+
+
+
+// import {Action, applyMiddleware, combineReducers, compose, createStore} from "redux";
+// import profileReducer from "./profile-reducer";
+// import dialogsReducer from "./dialogs-reducer";
+// import sidebarReducer from "./sidebar-reducer";
+// import usersReducer from "./users-reducer";
+// import authReducer from "./auth-reducer";
+// import thunkMiddleware, {ThunkAction} from "redux-thunk";
+// import {reducer as formReducer} from 'redux-form'
+// import appReducer from "./app-reducer";
+
+// let rootReducer = combineReducers({
+//     profilePage: profileReducer,
+//     dialogsPage: dialogsReducer,
+//     sidebar: sidebarReducer,
+//     usersPage: usersReducer,
+//     auth: authReducer,
+//     form: formReducer,
+//     app: appReducer,
+//     chat: chatReducer
+// })
+
+
+// // @ts-ignore
+// const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose
+
+// const store = createStore(rootReducer, composeEnhancers(applyMiddleware(thunkMiddleware)))
+
+// export default store

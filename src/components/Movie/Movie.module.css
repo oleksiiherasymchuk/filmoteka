@@ -1,0 +1,28 @@
+.movieDescription {
+    width: 80%;
+    display: block;
+    color: blue;
+    padding-right: 15px;
+}
+
+.movieItem {
+    background-color: rgba(118, 177, 177, 0.5);
+    margin: 10px 10px 10px 10px;
+    padding: 5px 5px 5px 5px;
+    display: flex;
+    border: 2px solid rgb(51, 59, 59);
+    border-radius: 10px;
+    
+}
+
+.image {
+    display: block;
+    height: 200px;
+    padding: 20px 50px 20px 20px;
+}
+
+.getMovieButton {
+    margin-left: 10px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
